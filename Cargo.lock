@@ -72,7 +72,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ruotsi_kertaus_11-20"
+name = "ruotsi_kertaus_1-20"
 version = "0.1.0"
 dependencies = [
  "rand",

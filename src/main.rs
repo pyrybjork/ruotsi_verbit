@@ -16,7 +16,29 @@ fn main() {
         ("olla, omistaa", ["ha", "har", "hade", "haft"]),
         ("olla nimeltään", ["heta", "heter", "hette", "hetat"]),
     ]); */
+    /* let words = HashMap::from([
+        ("hakata", ["hugga", "hugger", "högg", "huggit"]),
+        ("pitää", ["hålla", "håller", "höll", "hållit"]),
+        ("tulla", ["komma", "kommer", "kom", "kommit"]),
+        ("osata", ["kunna", "kan", "kunde", "kunnat"]),
+        ("maata, sijaita", ["ligga", "ligger", "låg", "legat"]),
+        ("kuulostaa", ["låta", "låter", "lät", "låtit"]),
+        ("laittaa", ["lägga", "lägger", "lade", "lagt"]),
+        ("nähdä", ["se", "ser", "såg", "sett"]),
+        ("istua", ["sitta", "sitter", "satt", "suttit"]),
+        ("laulaa", ["sjunga", "sjunger", "sjöng", "sjungit"]),
+    ]); */
     let words = HashMap::from([
+        ("tulla joksikin", ["bli", "blir", "blev", "blivit"]),
+        ("juoda", ["dricka", "dricker", "drack", "druckit"]),
+        ("olla olemassa", ["finnas", "finns", "fanns", "funnits"]),
+        ("lentää", ["flyga", "flyger", "flög", "flugit"]),
+        ("saada", ["få", "får", "fick", "fått"]),
+        ("ymmärtää", ["förstå", "förstår", "förstod", "förstått"]),
+        ("mennä, kävellä", ["gå", "går", "gick", "gått"]),
+        ("tehdä", ["göra", "gör", "gjorde", "gjort"]),
+        ("olla, omistaa", ["ha", "har", "hade", "haft"]),
+        ("olla nimeltään", ["heta", "heter", "hette", "hetat"]),
         ("hakata", ["hugga", "hugger", "högg", "huggit"]),
         ("pitää", ["hålla", "håller", "höll", "hållit"]),
         ("tulla", ["komma", "kommer", "kom", "kommit"]),
@@ -28,6 +50,7 @@ fn main() {
         ("istua", ["sitta", "sitter", "satt", "suttit"]),
         ("laulaa", ["sjunga", "sjunger", "sjöng", "sjungit"]),
     ]);
+
 
     println!("Anna epäsäännöllisen verbin taivutus muodot ruotsiksi: esim. bli, blir, blev, blivit \n");
 

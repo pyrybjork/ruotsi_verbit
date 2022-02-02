@@ -55,9 +55,7 @@ fn main() {
     println!("Anna epäsäännöllisen verbin taivutus muodot ruotsiksi: esim. bli, blir, blev, blivit \n");
 
     let mut rng = rand::thread_rng();
-
     let mut keys: Vec<&str> = words.keys().cloned().collect();
-
     let mut failed_keys: Vec<&str> = vec![];
 
     'main: loop {
